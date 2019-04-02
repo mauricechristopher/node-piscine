@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <title>Session</title>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js">  </script>
+    <script>
+      $(document).ready(function(){
+        var user,pass;
+        var tempuser, temppass;
+
+        $("#submit").click(function(){
+            user=$("#user").val();
+            pass=$("#passwd").val();
+            if (user != '' && pass != '') {
+                tempuser=user;
+                temppass=pass;
+                $.post("http://localhost:3000/login",{user: user,password: pass}, function(data){ });
+            }
+            else { $.post("http://localhost:3000/login",{user: tempuser,password: temppass}, function(data){ }); }
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <input type="TEXT" id="user" size="40" required><br>
+    <input type="password" id="passwd" size="40" required><br>
+    <input type="submit" id="submit" value="Submit">
+  </body>
+</html>

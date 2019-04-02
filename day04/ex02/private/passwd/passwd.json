@@ -1,0 +1,20 @@
+{
+    "name": "passwd",
+    "schema": {
+        "login": {},
+        "passwd": {}
+    },
+    "numEntries": 1,
+    "entries": [
+        {
+            "login": "{\"0\":\"a\",\"1\":\"s\",\"2\":\"d\",\"3\":\"f\"}",
+            "passwd": "059dd096"
+        }
+    ],
+    "configPresent": true,
+    "encoding": "utf-8",
+    "scema": {
+        "login": {},
+        "passwd": {}
+    }
+}

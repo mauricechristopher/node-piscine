@@ -1,0 +1,112 @@
+@media all and (max-width: 1780px) {
+  .table {
+      max-width: 90%;
+  }
+
+  .element {
+    max-width: 90%;
+    max-height: 90%;
+    border: 5px solid black;
+  }
+
+  .elem_weight {
+    margin: 1px;
+    text-align: right;
+    font-size: 8px;
+    margin-right: 2px;
+  }
+
+  .elem_symbol {
+    margin-top: 1px;
+    margin-bottom: 4px;
+    text-align: center;
+  }
+  .elem_number {
+    margin: 1px;
+    margin-left: 2px;
+    text-align: left;
+    font-size: 10px;
+  }
+}
+
+@media all and (max-width: 925px) {
+  .table {
+      max-width: 60%;
+  }
+
+  .element {
+    max-width: 50%;
+    max-height: 10%;
+    border: 3px solid black;
+  }
+
+  .elem_weight {
+    margin: 1px;
+    text-align: right;
+    font-size: 4px;
+    margin-right: 1px;
+  }
+
+  .elem_symbol {
+    margin-top: 1px;
+    margin-bottom: 4px;
+    text-align: center;
+  }
+  .elem_number {
+    margin: 1px;
+    margin-left: 2px;
+    text-align: left;
+    font-size: 6px;
+  }
+}
+
+/* .element {
+  max-height: 60px;
+  max-width: 50px;
+  border: 5px solid black;
+}
+
+.elem_weight {
+  margin: 1px;
+  text-align: right;
+  font-size: 10px;
+  margin-right: 2px;
+} */
+/* .elem_symbol {
+  margin-top: 1px;
+  margin-bottom: 4px;
+  text-align: center;
+}
+.elem_number {
+  margin: 1px;
+  margin-left: 2px;
+  text-align: left;
+  font-size: 10px;
+} */
+.body {
+    background-size: contain;
+    background-image: url("https://wallpapertag.com/wallpaper/full/1/4/4/482931-gorgerous-albert-einstein-wallpaper-1920x1200.jpg");
+    background-position: bottom;
+    /* background-repeat: repeat; */
+    height: 100%;
+    width: 100%;
+    display: block;
+    position: absolute;
+    overflow-x: auto;
+}
+
+.table {
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: repeat(18, 1fr);
+  grid-template-rows: repeat(9, 50px);
+  max-width: 1142px;
+  margin:1em auto;
+}
+
+html {
+  background-color: black;
+}
+
+
+

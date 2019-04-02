@@ -1,0 +1,19 @@
+{
+  "name": "rush00",
+  "version": "1.0.0",
+  "description": "Simple ecommerce app using Mongo, Node, and Express",
+  "main": "app.js",
+  "dependencies": {
+    "bcrypt": "^3.0.3",
+    "body-parser": "^1.18.3",
+    "connect-mongo": "^2.0.3",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "mongoose": "^5.4.3",
+    "nodemon": "^1.18.9"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon app.js"
+  }
+}

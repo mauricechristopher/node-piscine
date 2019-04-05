@@ -1,0 +1,13 @@
+html {
+    background-color: lightblue;
+}
+
+#bal {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: red;
+    margin: 0 auto;
+    margin-top: 20%;
+    position: relative;
+}
